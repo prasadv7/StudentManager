@@ -1,0 +1,6 @@
+<resources>
+    <array name="class_options">
+        <item>MCA1</item>
+        <item>MCA2</item>
+    </array>
+</resources>

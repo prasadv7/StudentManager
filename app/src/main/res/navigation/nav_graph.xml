@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.studentactivitysystem.HomeFragment"
+        android:label="Student Dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Learning Materials Fragment -->
+    <fragment
+        android:id="@+id/learningMaterialsFragment"
+        android:name="com.example.studentactivitysystem.LearningMaterialsFragment"
+        android:label="Study Materials"
+        tools:layout="@layout/fragment_learning_materials" />
+
+    <!-- View Grades Fragment -->
+    <fragment
+        android:id="@+id/viewGradesFragment"
+        android:name="com.example.studentactivitysystem.ViewGradesFragment"
+        android:label="View Grades"
+        tools:layout="@layout/fragment_view_grades" />
+
+    <!-- Event Details Fragment -->
+    <fragment
+        android:id="@+id/eventDetailsFragment"
+        android:name="com.example.studentactivitysystem.EventDetailsFragment"
+        android:label="View Events"
+        tools:layout="@layout/fragment_event_details" />
+
+</navigation>

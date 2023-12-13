@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767731082866",
+    "project_id": "studentactivitymanager",
+    "storage_bucket": "studentactivitymanager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767731082866:android:0fb7cae26da3e3e45344eb",
+        "android_client_info": {
+          "package_name": "com.example.studentactivitysystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEOCSTdWp4s52S78J0BbXmmHctvRnfaiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
